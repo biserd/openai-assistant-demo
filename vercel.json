@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "npx nx build assistant --prod",
   "devCommand": "npx nx serve assistant --prod",
-  "installCommand": "npm install",
+  "installCommand": "pnpm install",
   "framework": "nextjs",
   "outputDirectory": "./dist/apps/assistant/.next",
   "functions": {
